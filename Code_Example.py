@@ -45,7 +45,7 @@ import h5py
 
 class multimode(Dataset):
     def __init__(self,):
-        super().__init__()
+        
 
 def load_dataset(file_location,what_to_load):
     hf = h5py.File( file_location , 'r')
